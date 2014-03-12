@@ -21,14 +21,12 @@ public class Day6_24HClock {
         if(!validateTime(hour, minute)) {
             System.out.println("Time is not valid!!! hour must be >=0 && < 24 and minute must be >=0 && < 60");
         } else {
-            float hourPercentage = minute / 60f;
-            float hourHandAngle = ((hour + hourPercentage) / 24f) * 360f;
-            float minuteHandAngle = hourPercentage * 360f;
-            float difference = Math.abs(hourHandAngle - minuteHandAngle);
-            if (difference > 180) {
-                System.out.println("Given time [" + hour + "h" + minute + "] the angle is " + (360f - difference));
+            float tmp = minute / 60f;
+            float diff = Math.abs((((hour + tmp) / 24f) * 360f) - (tmp * 360f));
+            if (diff > 180) {
+                System.out.println("Given time [" + hour + "h" + minute + "] the angle is " + (360f - diff));
             } else {
-                System.out.println("Given time [" + hour + "h" + minute + "] the angle is " + (difference));
+                System.out.println("Given time [" + hour + "h" + minute + "] the angle is " + (diff));
             }
         }
     }
