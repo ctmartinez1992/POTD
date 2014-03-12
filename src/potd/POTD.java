@@ -15,9 +15,10 @@ public class POTD {
         while(true) {            
             System.out.print("Day 1 - King's Gold\n" +
                                "Day 2 - Vigenére Cypher\n" +
-                               "Day 3 - MatrixRotation\n" +
-                               "Day 4 - KingsWine\n" +
-                               "Day 5 - PalindromicNumbers\n" +
+                               "Day 3 - Matrix Rotation\n" +
+                               "Day 4 - Kings Wine\n" +
+                               "Day 5 - Palindromic Numbers\n" +
+                               "Day 6 - 24H Clock\n" +
                                "0 - Quit\n\nOp: ");
 
             String op = bufferRead.readLine();
@@ -41,6 +42,10 @@ public class POTD {
                     
                 case "5":
                     Day5_PalindromicNumbers.main(args);
+                    break;
+                    
+                case "6":
+                    Day6_24HClock.main(args);
                     break;
                     
                 default:
