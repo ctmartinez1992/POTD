@@ -15,6 +15,7 @@ public class POTD {
                                "Day 4 - Kings Wine\n" +
                                "Day 5 - Palindromic Numbers\n" +
                                "Day 6 - 24H Clock\n" +
+                               "Day 7 - No Divide\n" +
                                "0 - Quit\n\nOp: ");
 
             String op = bufferRead.readLine();
@@ -42,6 +43,10 @@ public class POTD {
                     
                 case "6":
                     Day6_24HClock.main(args);
+                    break;
+                    
+                case "7":
+                    Day7_NoDivide.main(args);
                     break;
                     
                 default:
