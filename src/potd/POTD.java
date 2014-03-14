@@ -16,6 +16,7 @@ public class POTD {
                                "Day 5 - Palindromic Numbers\n" +
                                "Day 6 - 24H Clock\n" +
                                "Day 7 - No Divide\n" +
+                               "Day 8 - Longest Palindrome\n" +
                                "0 - Quit\n\nOp: ");
 
             String op = bufferRead.readLine();
@@ -47,6 +48,10 @@ public class POTD {
                     
                 case "7":
                     Day7_NoDivide.main(args);
+                    break;
+                    
+                case "8":
+                    Day8_LongestPalindrome.main(args);
                     break;
                     
                 default:
