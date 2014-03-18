@@ -18,6 +18,7 @@ public class POTD {
                                "Day 7 - No Divide\n" +
                                "Day 8 - Longest Palindrome\n" +
                                "Day 9 - Cracking the Primes\n" +
+                               "Day 10 - Making Change\n" +
                                "0 - Quit\n\nOp: ");
 
             String op = bufferRead.readLine();
@@ -57,6 +58,10 @@ public class POTD {
                     
                 case "9":
                     Day9_CrackingThePrimes.main(args);
+                    break;
+                    
+                case "10":
+                    Day10_MakingChange.main(args);
                     break;
                     
                 default:
