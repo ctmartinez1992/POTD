@@ -20,6 +20,7 @@ public class POTD {
                                "Day 9 - Cracking the Primes\n" +
                                "Day 10 - Making Change\n" +
                                "Day 11 - Balancing Act\n" +
+                               "Day 12 - Unique Permutations\n" +
                                "0 - Quit\n\nOp: ");
 
             String op = bufferRead.readLine();
@@ -67,6 +68,10 @@ public class POTD {
                     
                 case "11":
                     Day11_BalancingAct.main(args);
+                    break;
+                    
+                case "12":
+                    Day12_UniquePermutations.main(args);
                     break;
                     
                 default:

@@ -15,12 +15,6 @@ package potd;
  * Good luck!
  * 
  * 
- * 1  1  1  1  1  1  1  1  1.1
- * 
- * 4      4
- * ganha1 ganha2
- * ganha1: 2          2
- * 
  * @author Carlos
  */
 public class Day11_BalancingAct {
