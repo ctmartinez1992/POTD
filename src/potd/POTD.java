@@ -21,6 +21,7 @@ public class POTD {
                                "Day 10 - Making Change\n" +
                                "Day 11 - Balancing Act\n" +
                                "Day 12 - Unique Permutations\n" +
+                               "Day 13 - Smallest Integer\n" +
                                "0 - Quit\n\nOp: ");
 
             String op = bufferRead.readLine();
@@ -72,6 +73,10 @@ public class POTD {
                     
                 case "12":
                     Day12_UniquePermutations.main(args);
+                    break;
+                    
+                case "13":
+                    Day13_SmallestInteger.main(args);
                     break;
                     
                 default:
