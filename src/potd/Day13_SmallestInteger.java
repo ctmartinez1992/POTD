@@ -8,6 +8,14 @@ package potd;
  * the 3 without using any comparison operator (e.g.: >, <, ==).
  * Something like "return min([1,2,3])" is cheating.
  * 
+ * Cute little solution
+ * def min3(a, b, c):
+ *      return min2(min2(a, b), c)
+ * 
+ * def min2(a, b):
+ *      return (a + b - abs(a - b)) // 2
+ * 
+ * 
  * @author Carlos
  */
 public class Day13_SmallestInteger {

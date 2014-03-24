@@ -6,7 +6,8 @@ import java.io.InputStreamReader;
 
 public class POTD {
     
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {       
+        
         BufferedReader bufferRead = new BufferedReader(new InputStreamReader(System.in));
         while(true) {            
             System.out.print("Day 1 - King's Gold\n" +
@@ -22,6 +23,7 @@ public class POTD {
                                "Day 11 - Balancing Act\n" +
                                "Day 12 - Unique Permutations\n" +
                                "Day 13 - Smallest Integer\n" +
+                               "Day 14 - Markdown Parser\n" +
                                "0 - Quit\n\nOp: ");
 
             String op = bufferRead.readLine();
@@ -77,6 +79,10 @@ public class POTD {
                     
                 case "13":
                     Day13_SmallestInteger.main(args);
+                    break;
+                    
+                case "14":
+                    Day14_MarkdownParser.main(args);
                     break;
                     
                 default:
