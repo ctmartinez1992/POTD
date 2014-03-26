@@ -1,12 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package potd;
 
 /**
+ * Digit Square
+ * Given a 3x3 square fill in the numbers 1-9,
+ * using each number once, so that each row, column and diagonal add up to the same number.
+ * A diagonal must be as long and wide as the square to be counted.
+ * For instance, on a standard number pad the only valid diagonals are 1, 5, 9 and 3, 5, 7.
+ * To take this a step further, write a program that can solve this for an NxN square (e.g.: for a 5x5 square use the numbers 1-25).
+ * 
  *
  * @author Carlos
  */
