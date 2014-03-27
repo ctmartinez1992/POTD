@@ -26,6 +26,7 @@ public class POTD {
                                "Day 14 - Markdown Parser\n" +
                                "Day 15 - Digit Square\n" +
                                "Day 16 - Sinking Island\n" +
+                               "Day 17 - Tweet Parser (There was no time)\n" +
                                "0 - Quit\n\nOp: ");
 
             String op = bufferRead.readLine();
@@ -93,6 +94,10 @@ public class POTD {
                     
                 case "16":
                     Day16_SinkingIsland.main(args);
+                    break;
+                    
+                case "17":
+                    Day17_TweetParser.main(args);
                     break;
                     
                 default:
