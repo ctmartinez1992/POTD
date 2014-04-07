@@ -27,7 +27,13 @@ public class POTD {
                                "Day 15 - Digit Square\n" +
                                "Day 16 - Sinking Island\n" +
                                "Day 17 - Tweet Parser (There was no time!)\n" +
-                               "Day 18 - Muspi Merol (There was no time! Lorem Ipsum instead)\n" +
+                               "Day 18 - Muspi Merol (Lorem Ipsum instead)\n" +
+                               "Day 19 - Sort Times (There was no time! Insanity Jam 2014)\n" +
+                               "Day 20 - Load Balancer (There was no time! Insanity Jam 2014)\n" +
+                               "Day 21 - Word Ladder (There was no time! Insanity Jam 2014)\n" +
+                               "Day 22 - Work Schedule (There was no time! Insanity Jam 2014)\n" +
+                               "Day 23 - Horse Racing (There was no time! Insanity Jam 2014)\n" +
+                               "Day 24 - Smiley Face\n" +
                                "0 - Quit\n\nOp: ");
 
             String op = bufferRead.readLine();
@@ -103,6 +109,30 @@ public class POTD {
                     
                 case "18":
                     Day18_MuspiMerol.main(args);
+                    break;
+                    
+                case "19":
+                    Day19_SortTimes.main(args);
+                    break;
+                    
+                case "20":
+                    Day20_LoadBalancer.main(args);
+                    break;
+                    
+                case "21":
+                    Day21_WordLadder.main(args);
+                    break;
+                    
+                case "22":
+                    Day22_WorkSchedule.main(args);
+                    break;
+                    
+                case "23":
+                    Day23_HorseRacing.main(args);
+                    break;
+                    
+                case "24":
+                    Day24_SmileyFace.main(args);
                     break;
                     
                 default:
