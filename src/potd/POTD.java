@@ -35,6 +35,7 @@ public class POTD {
                                "Day 23 - Horse Racing (There was no time! Insanity Jam 2014)\n" +
                                "Day 24 - Smiley Face\n" +
                                "Day 25 - Where To Eat?\n" +
+                               "Day 26 - Pyramid Sort\n" +
                                "0 - Quit\n\nOp: ");
 
             String op = bufferRead.readLine();
@@ -138,6 +139,10 @@ public class POTD {
                     
                 case "25":
                     Day25_WhereToEat.main(args);
+                    break;
+                    
+                case "26":
+                    Day26_PyramidSort.main(args);
                     break;
                     
                 default:
