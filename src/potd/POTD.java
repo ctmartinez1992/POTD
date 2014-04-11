@@ -36,6 +36,8 @@ public class POTD {
                                "Day 24 - Smiley Face\n" +
                                "Day 25 - Where To Eat?\n" +
                                "Day 26 - Pyramid Sort\n" +
+                               "Day 27 - Transposition Cypher\n" +
+                               "Day 28 - Two Eggs\n" +
                                "0 - Quit\n\nOp: ");
 
             String op = bufferRead.readLine();
@@ -143,6 +145,14 @@ public class POTD {
                     
                 case "26":
                     Day26_PyramidSort.main(args);
+                    break;
+                    
+                case "27":
+                    Day27_TranspositionCypher.main(args);
+                    break;
+                    
+                case "28":
+                    Day28_TwoEggs.main(args);
                     break;
                     
                 default:
