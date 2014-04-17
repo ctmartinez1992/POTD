@@ -36,8 +36,12 @@ public class POTD {
                                "Day 24 - Smiley Face\n" +
                                "Day 25 - Where To Eat?\n" +
                                "Day 26 - Pyramid Sort\n" +
-                               "Day 27 - Transposition Cypher\n" +
+                               "Day 27 - Transposition Cypher (OOPS! Forgot about it...)\n" +
                                "Day 28 - Two Eggs\n" +
+                               "Day 29 - Stacks and Queues (There was no time!  Was on a funeral :()\n" +
+                               "Day 30 - 2 Stacks 1 Queue (There was no time! Grandma's birthday :))\n" +
+                               "Day 31 - Duplicate Numbers\n" +
+                               "Day 32 - Et Tu Brute (Didn't made the other cyphers :()\n" +
                                "0 - Quit\n\nOp: ");
 
             String op = bufferRead.readLine();
@@ -153,6 +157,22 @@ public class POTD {
                     
                 case "28":
                     Day28_TwoEggs.main(args);
+                    break;
+                    
+                case "29":
+                    Day29_Stack_Queue.main(args);
+                    break;
+                    
+                case "30":
+                    Day30_2_Stack_1_Queue.main(args);
+                    break;
+                    
+                case "31":
+                    Day31_DuplicateNumbers.main(args);
+                    break;
+                    
+                case "32":
+                    Day32_EtTuBrute.main(args);
                     break;
                     
                 default:
