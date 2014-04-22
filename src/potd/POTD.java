@@ -43,7 +43,8 @@ public class POTD {
                                "Day 31 - Duplicate Numbers\n" +
                                "Day 32 - Et Tu Brute (Didn't made the other cyphers :()\n" +
                                "Day 33 - Lone Survivor\n" +
-                               "Day 33 - Tic Tac Toe (Poorly done)\n" +
+                               "Day 34 - Tic Tac Toe (Poorly done)\n" +
+                               "Day 35 - Digital Typewriter (Sick :()\n" +
                                "0 - Quit\n\nOp: ");
 
             String op = bufferRead.readLine();
@@ -183,6 +184,10 @@ public class POTD {
                     
                 case "34":
                     Day34_TicTacToe.main(args);
+                    break;
+                    
+                case "35":
+                    Day35_DigitalTypewriter.main(args);
                     break;
                     
                 default:

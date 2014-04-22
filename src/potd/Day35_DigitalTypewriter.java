@@ -1,0 +1,26 @@
+package potd;
+
+/**
+ * Digital Typewritter
+ * We're going way back for this one.
+ * Today's problem is creating a digital typewritter.
+ * When the program is run it will allow the user to enter text.
+ * When the user hits enter that line will be saved to a text file.
+ * The program runs until the following combination occurs: blank line > enter > "." > enter.
+ * Bonus Round
+ *   Open the file after the user is done inputting text (after the blank line > enter > "." > enter has occurred)
+ *   Limit the number of characters per line to 72
+ * 
+ *
+ * @author Carlos
+ */
+public class Day35_DigitalTypewriter {
+    
+    public static void main(String[] args) {
+        testCase();
+    }
+    
+    public static void testCase() {
+        System.out.println("Sick :(");
+    } 
+}
