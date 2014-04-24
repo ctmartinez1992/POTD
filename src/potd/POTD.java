@@ -45,6 +45,8 @@ public class POTD {
                                "Day 33 - Lone Survivor\n" +
                                "Day 34 - Tic Tac Toe (Poorly done)\n" +
                                "Day 35 - Digital Typewriter (Sick :()\n" +
+                               "Day 36 - Musical Chorus (Sick :()\n" +
+                               "Day 37 - We Hungry (Sick :()\n" +
                                "0 - Quit\n\nOp: ");
 
             String op = bufferRead.readLine();
@@ -188,6 +190,14 @@ public class POTD {
                     
                 case "35":
                     Day35_DigitalTypewriter.main(args);
+                    break;
+                    
+                case "36":
+                    Day36_MusicalChorus.main(args);
+                    break;
+                    
+                case "37":
+                    Day37_WeHungry.main(args);
                     break;
                     
                 default:
