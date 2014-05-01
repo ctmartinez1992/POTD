@@ -48,6 +48,10 @@ public class POTD {
                                "Day 36 - Musical Chorus (Sick :()\n" +
                                "Day 37 - We Hungry (Sick :()\n" +
                                "Day 38 - Hat escape\n" +
+                               "Day 39 - Rock Papers Scissors AI\n" +
+                               "Day 40 - Sorted Linked List\n" +
+                               "Day 41 - Party Hat\n" +
+                               "Day 42 - Y2K Age Finder\n" +
                                "0 - Quit\n\nOp: ");
 
             String op = bufferRead.readLine();
@@ -203,6 +207,22 @@ public class POTD {
                     
                 case "38":
                     Day38_HatEscape.main(args);
+                    break;
+                    
+                case "39":
+                    Day39_RockPapersScissors.main(args);
+                    break;
+                    
+                case "40":
+                    Day40_SortedLinkedList.main(args);
+                    break;
+                    
+                case "41":
+                    Day41_PartyHat.main(args);
+                    break;
+                    
+                case "42":
+                    Day42_Y2KAgeFinder.main(args);
                     break;
                     
                 default:
