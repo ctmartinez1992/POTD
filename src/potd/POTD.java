@@ -52,6 +52,7 @@ public class POTD {
                                "Day 40 - Sorted Linked List\n" +
                                "Day 41 - Party Hat\n" +
                                "Day 42 - Y2K Age Finder\n" +
+                               "Day 43 - Elevator Puzzle\n" +
                                "0 - Quit\n\nOp: ");
 
             String op = bufferRead.readLine();
@@ -223,6 +224,10 @@ public class POTD {
                     
                 case "42":
                     Day42_Y2KAgeFinder.main(args);
+                    break;
+                    
+                case "43":
+                    Day43_ElevatorPuzzle.main(args);
                     break;
                     
                 default:
